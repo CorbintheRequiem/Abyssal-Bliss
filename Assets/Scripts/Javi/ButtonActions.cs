@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonActions : MonoBehaviour
 {
-    public void Start()
+    public void Start(string sceneName)
     {
-       
+        SceneManager.LoadScene(sceneName);
     }
 
     public void Quit()
