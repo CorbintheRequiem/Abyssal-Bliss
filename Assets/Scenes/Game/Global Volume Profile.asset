@@ -17,6 +17,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 2
   gaussianStart:
+<<<<<<< HEAD
     m_OverrideState: 1
     m_Value: 10
   gaussianEnd:
@@ -27,6 +28,18 @@ MonoBehaviour:
     m_Value: 1
   highQualitySampling:
     m_OverrideState: 1
+=======
+    m_OverrideState: 0
+    m_Value: 10
+  gaussianEnd:
+    m_OverrideState: 0
+    m_Value: 30
+  gaussianMaxRadius:
+    m_OverrideState: 0
+    m_Value: 1
+  highQualitySampling:
+    m_OverrideState: 0
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
     m_Value: 0
   focusDistance:
     m_OverrideState: 1
@@ -38,6 +51,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 62
   bladeCount:
+<<<<<<< HEAD
     m_OverrideState: 1
     m_Value: 5
   bladeCurvature:
@@ -155,6 +169,16 @@ MonoBehaviour:
   chromaticAbberationIntensity:
     m_OverrideState: 1
     m_Value: 0.597
+=======
+    m_OverrideState: 0
+    m_Value: 5
+  bladeCurvature:
+    m_OverrideState: 0
+    m_Value: 1
+  bladeRotation:
+    m_OverrideState: 0
+    m_Value: 0
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
 --- !u!114 &-4849820628476173104
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -177,6 +201,7 @@ MonoBehaviour:
   gain:
     m_OverrideState: 1
     m_Value: {x: 0.88456285, y: 0.90841496, z: 1, w: 0}
+<<<<<<< HEAD
 --- !u!114 &-4756630995327673451
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -218,6 +243,8 @@ MonoBehaviour:
   clamp:
     m_OverrideState: 1
     m_Value: 0.05
+=======
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
 --- !u!114 &-2139007797573444310
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -233,6 +260,7 @@ MonoBehaviour:
   active: 1
   type:
     m_OverrideState: 1
+<<<<<<< HEAD
     m_Value: 2
   intensity:
     m_OverrideState: 1
@@ -478,6 +506,18 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+=======
+    m_Value: 4
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.324
+  response:
+    m_OverrideState: 1
+    m_Value: 0.446
+  texture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,6 +537,7 @@ MonoBehaviour:
   - {fileID: -8934486982656506211}
   - {fileID: 5936248541625375957}
   - {fileID: -2139007797573444310}
+<<<<<<< HEAD
   - {fileID: -4756630995327673451}
   - {fileID: -6204917075647333080}
   - {fileID: -2551507846564618757}
@@ -529,6 +570,8 @@ MonoBehaviour:
   cropToFit:
     m_OverrideState: 1
     m_Value: 1
+=======
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
 --- !u!114 &1748817357324526420
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -548,6 +591,7 @@ MonoBehaviour:
   tint:
     m_OverrideState: 1
     m_Value: 4
+<<<<<<< HEAD
 --- !u!114 &3490811109055195950
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -588,6 +632,8 @@ MonoBehaviour:
   maxNits:
     m_OverrideState: 1
     m_Value: 1000
+=======
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
 --- !u!114 &5717618318442025237
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -605,6 +651,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 45
   redOutGreenIn:
+<<<<<<< HEAD
     m_OverrideState: 1
     m_Value: 0
   redOutBlueIn:
@@ -612,11 +659,21 @@ MonoBehaviour:
     m_Value: 0
   greenOutRedIn:
     m_OverrideState: 1
+=======
+    m_OverrideState: 0
+    m_Value: 0
+  redOutBlueIn:
+    m_OverrideState: 0
+    m_Value: 0
+  greenOutRedIn:
+    m_OverrideState: 0
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
     m_Value: 0
   greenOutGreenIn:
     m_OverrideState: 1
     m_Value: 65
   greenOutBlueIn:
+<<<<<<< HEAD
     m_OverrideState: 1
     m_Value: 0
   blueOutRedIn:
@@ -656,6 +713,19 @@ MonoBehaviour:
   saturation:
     m_OverrideState: 1
     m_Value: 0
+=======
+    m_OverrideState: 0
+    m_Value: 0
+  blueOutRedIn:
+    m_OverrideState: 0
+    m_Value: 0
+  blueOutGreenIn:
+    m_OverrideState: 0
+    m_Value: 0
+  blueOutBlueIn:
+    m_OverrideState: 0
+    m_Value: 100
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
 --- !u!114 &5936248541625375957
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -684,6 +754,7 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 1
     m_Value: 1
+<<<<<<< HEAD
 --- !u!114 &5977790223810476289
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -796,3 +867,5 @@ MonoBehaviour:
   scale:
     m_OverrideState: 1
     m_Value: 1
+=======
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5

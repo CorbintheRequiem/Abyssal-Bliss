@@ -341,11 +341,15 @@ MonoBehaviour:
         m_SelectedSource:
           rid: -2
         m_Provider2DCache:
+<<<<<<< HEAD
           rid: 6492562708984758277
     - rid: 6492562708984758277
       type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data:
         m_Cache: []
+=======
+          rid: -2
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
 --- !u!4 &619394802
 Transform:
   m_ObjectHideFlags: 0
@@ -371,7 +375,11 @@ GameObject:
   m_Component:
   - component: {fileID: 746837862}
   - component: {fileID: 746837861}
+<<<<<<< HEAD
   m_Layer: 4
+=======
+  m_Layer: 0
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
   m_Name: Global Volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
