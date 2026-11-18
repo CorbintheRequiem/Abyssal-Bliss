@@ -666,11 +666,11 @@ MonoBehaviour:
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 17
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_Antialiasing: 3
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -699,7 +699,7 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -978,7 +978,15 @@ MonoBehaviour:
         m_SelectedSource:
           rid: -2
         m_Provider2DCache:
+<<<<<<< HEAD
+          rid: 6492562708984758277
+    - rid: 6492562708984758277
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Cache: []
+=======
           rid: -2
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
 --- !u!4 &619394802
 Transform:
   m_ObjectHideFlags: 0
@@ -1004,7 +1012,11 @@ GameObject:
   m_Component:
   - component: {fileID: 746837862}
   - component: {fileID: 746837861}
+<<<<<<< HEAD
+  m_Layer: 4
+=======
   m_Layer: 0
+>>>>>>> d108e0b68e97c770fb79003c331cb055ef8e00f5
   m_Name: Global Volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
