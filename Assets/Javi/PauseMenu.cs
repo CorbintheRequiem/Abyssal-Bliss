@@ -33,6 +33,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Quit()
     {
-
+        Debug.Log("get outta here");
+        Application.Quit();
     }
 }
