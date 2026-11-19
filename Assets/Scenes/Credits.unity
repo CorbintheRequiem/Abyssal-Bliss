@@ -707,7 +707,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 609722030}
         m_TargetAssemblyTypeName: ButtonActions, Assembly-CSharp
-        m_MethodName: Start
+        m_MethodName: Startbutton
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
