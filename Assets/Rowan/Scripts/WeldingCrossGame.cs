@@ -14,6 +14,8 @@ public class WeldingCrossGame : MonoBehaviour
     public float oscX;
     public float advancingSpeed;
     public float currentX;
+    [SerializeField] private float timeX = 0;
+    [SerializeField] private float timeY = 0;
 
     // Sine Wave Formula: y = 3.4sin(2pix/m)
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -29,6 +31,20 @@ public class WeldingCrossGame : MonoBehaviour
     {
         Oscilate(VoltageOrb);
         currentX += advancingSpeed * 1/50;
+
+        // Timer
+        timeX += 0.02f;
+        timeY += 0.02f;
+        if (timeX >= oscX)
+        {
+            timeX = 0;
+            oscX = Random.Range(maxSpeed, minSpeed);
+        }
+        if (timeY >= oscY)
+        {
+            timeY = 0;
+            oscY = Random.Range(maxSpeed, minSpeed);
+        }
     }
 
     public void Oscilate(GameObject thing)
