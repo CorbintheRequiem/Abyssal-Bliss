@@ -2,15 +2,13 @@ using UnityEngine;
 
 public class Stats : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public float maxHealth;
+    [HideInInspector] public float currentHealth;
 
-    // Update is called once per frame
-    void Update()
+    public int money;
+
+    private void Start()
     {
-        
+        currentHealth = maxHealth;
     }
 }
