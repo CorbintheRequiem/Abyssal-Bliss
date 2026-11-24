@@ -7,8 +7,8 @@ public class PlayerStats : MonoBehaviour
     [Tooltip("Max health of Entity")] [Range(1, 100)] public float maxHealth;
     [HideInInspector] public float currentHealth;
 
-    [Tooltip("Max Oxygen of Entity")] [Range(0, 50)] public float maxO2;
-    [HideInInspector] public float currentO2;
+    [Tooltip("Max Oxygen of Entity")] [Range(0, 50)] public float maxOxy;
+    [HideInInspector] public float currentOxy;
 
     [Header("Combat")]
 
@@ -23,6 +23,6 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
-        currentO2 = maxO2;  
+        currentOxy = maxOxy;  
     }
 }
