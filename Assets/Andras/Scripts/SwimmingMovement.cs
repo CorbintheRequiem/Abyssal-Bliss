@@ -32,12 +32,14 @@ public class SwimmingMovement : MonoBehaviour
         RotatePlayer();
     }
 
+    //Adds acceleration and deceleration to player movement. 
     private void SetPlayerVelocity()
     {
         smoothMovement = Vector2.SmoothDamp(smoothMovement, movement, ref smoothVelocity, accelerationTime);
         rb2d.linearVelocity = smoothMovement * currentSpeed;
     }
 
+    //Rotates the player where they are moving, else rotates them back to normal rotation. 
     private void RotatePlayer()
     {
         if (movement != Vector2.zero)
