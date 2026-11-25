@@ -381,7 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c9b8d839d07514e9ada1f028e35bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StatsHUD
-  Stats: {fileID: 0}
+  Stats: {fileID: 1016082774}
   healthbar: {fileID: 1082992384}
   oxybar: {fileID: 1099643525}
 --- !u!1 &289222808
@@ -1133,6 +1133,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922235605}
   m_CullTransparentMesh: 1
+--- !u!114 &1016082774 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2596429957160888335, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
+  m_PrefabInstance: {fileID: 693707523}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fbb8c40a56885249be0b9544642b79c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
 --- !u!1 &1082992382
 GameObject:
   m_ObjectHideFlags: 0
