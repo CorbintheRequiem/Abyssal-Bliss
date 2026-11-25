@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0681881a14bd41f4a972928e4bc77333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
-  dBorder: {fileID: 0}
+  dBorder: {fileID: 1512433965}
   uBorder: {fileID: 732442614}
   lBorder: {fileID: 439771674}
   rBorder: {fileID: 648658817}
@@ -500,7 +500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 856660100}
-  uBorder: {fileID: 0}
+  uBorder: {fileID: 439771674}
   lBorder: {fileID: 941314649}
   rBorder: {fileID: 1512433965}
 --- !u!1 &75732864
@@ -2048,7 +2048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 793956028}
   uBorder: {fileID: 0}
-  lBorder: {fileID: 0}
+  lBorder: {fileID: 1493761569}
   rBorder: {fileID: 1463627891}
 --- !u!4 &315962478
 Transform:
@@ -2401,7 +2401,7 @@ MonoBehaviour:
   dBorder: {fileID: 1579921654}
   uBorder: {fileID: 936592156}
   lBorder: {fileID: 457464825}
-  rBorder: {fileID: 0}
+  rBorder: {fileID: 1377659053}
 --- !u!4 &373686880
 Transform:
   m_ObjectHideFlags: 0
@@ -2682,7 +2682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0681881a14bd41f4a972928e4bc77333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
-  dBorder: {fileID: 0}
+  dBorder: {fileID: 61327301}
   uBorder: {fileID: 781412293}
   lBorder: {fileID: 531286854}
   rBorder: {fileID: 30834620}
@@ -3200,7 +3200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0681881a14bd41f4a972928e4bc77333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
-  dBorder: {fileID: 0}
+  dBorder: {fileID: 941314649}
   uBorder: {fileID: 1955871365}
   lBorder: {fileID: 0}
   rBorder: {fileID: 439771674}
@@ -3809,7 +3809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 176469451}
-  uBorder: {fileID: 0}
+  uBorder: {fileID: 1850459157}
   lBorder: {fileID: 2036368595}
   rBorder: {fileID: 1559745035}
 --- !u!1 &596041571
@@ -4034,10 +4034,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0681881a14bd41f4a972928e4bc77333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
-  dBorder: {fileID: 0}
+  dBorder: {fileID: 2048326451}
   uBorder: {fileID: 2127352878}
   lBorder: {fileID: 30834620}
-  rBorder: {fileID: 0}
+  rBorder: {fileID: 1892076841}
 --- !u!1 &649796112
 GameObject:
   m_ObjectHideFlags: 0
@@ -4761,7 +4761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0681881a14bd41f4a972928e4bc77333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
-  dBorder: {fileID: 0}
+  dBorder: {fileID: 1559745035}
   uBorder: {fileID: 1801920231}
   lBorder: {fileID: 1850459157}
   rBorder: {fileID: 1573011178}
@@ -5055,7 +5055,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 1010796725}
   uBorder: {fileID: 315962476}
-  lBorder: {fileID: 0}
+  lBorder: {fileID: 1940802640}
   rBorder: {fileID: 520739887}
 --- !u!4 &793956030
 Transform:
@@ -6467,7 +6467,7 @@ MonoBehaviour:
   dBorder: {fileID: 373686878}
   uBorder: {fileID: 2048326451}
   lBorder: {fileID: 815805030}
-  rBorder: {fileID: 0}
+  rBorder: {fileID: 1764350656}
 --- !u!4 &936592158
 Transform:
   m_ObjectHideFlags: 0
@@ -6515,7 +6515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 360527945}
-  uBorder: {fileID: 0}
+  uBorder: {fileID: 531286854}
   lBorder: {fileID: 0}
   rBorder: {fileID: 61327301}
 --- !u!4 &941314651
@@ -7100,7 +7100,7 @@ MonoBehaviour:
   left: 0
   right: 0
   timer: 0
-  searching: 1
+  searching: 0
 --- !u!1 &987677131
 GameObject:
   m_ObjectHideFlags: 0
@@ -7316,7 +7316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 1892076841}
   uBorder: {fileID: 793956028}
-  lBorder: {fileID: 0}
+  lBorder: {fileID: 2127352878}
   rBorder: {fileID: 1012988794}
 --- !u!4 &1010796727
 Transform:
@@ -7854,6 +7854,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1077344388}
+  - component: {fileID: 1077344389}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -7880,6 +7881,28 @@ Transform:
   - {fileID: 1982845982}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1077344389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077344387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f322b9fbe4e7fc74ba197d9bac0c9851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GenerateGrid
+  pipes: 0
+  startingCorner: {fileID: 0}
+  ss: {fileID: 0}
+  Grid1: {fileID: 1791228131}
+  Grid2: {fileID: 1784252261}
+  Grid3: {fileID: 984101286}
+  Grid4: {fileID: 1982845981}
+  grids: []
+  allPipes:
+    pipeArrays: []
 --- !u!1 &1085082676
 GameObject:
   m_ObjectHideFlags: 0
@@ -10290,7 +10313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 1663297294}
   uBorder: {fileID: 1764350656}
-  lBorder: {fileID: 0}
+  lBorder: {fileID: 373686878}
   rBorder: {fileID: 895896387}
 --- !u!4 &1377659055
 Transform:
@@ -10751,7 +10774,7 @@ MonoBehaviour:
   dBorder: {fileID: 1940802640}
   uBorder: {fileID: 0}
   lBorder: {fileID: 639103417}
-  rBorder: {fileID: 0}
+  rBorder: {fileID: 315962476}
 --- !u!4 &1493761571
 Transform:
   m_ObjectHideFlags: 0
@@ -10958,7 +10981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 815805030}
-  uBorder: {fileID: 0}
+  uBorder: {fileID: 30834620}
   lBorder: {fileID: 61327301}
   rBorder: {fileID: 2048326451}
 --- !u!1 &1514681978
@@ -11192,7 +11215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 1994598402}
-  uBorder: {fileID: 0}
+  uBorder: {fileID: 709310257}
   lBorder: {fileID: 594384022}
   rBorder: {fileID: 1750749849}
 --- !u!1 &1571538856
@@ -11333,7 +11356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0681881a14bd41f4a972928e4bc77333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
-  dBorder: {fileID: 0}
+  dBorder: {fileID: 1750749849}
   uBorder: {fileID: 1960468543}
   lBorder: {fileID: 709310257}
   rBorder: {fileID: 0}
@@ -11369,7 +11392,7 @@ MonoBehaviour:
   dBorder: {fileID: 0}
   uBorder: {fileID: 373686878}
   lBorder: {fileID: 1202199427}
-  rBorder: {fileID: 0}
+  rBorder: {fileID: 1663297294}
 --- !u!4 &1579921656
 Transform:
   m_ObjectHideFlags: 0
@@ -11820,7 +11843,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 0}
   uBorder: {fileID: 1377659053}
-  lBorder: {fileID: 0}
+  lBorder: {fileID: 1579921654}
   rBorder: {fileID: 313408514}
 --- !u!4 &1663297296
 Transform:
@@ -12513,7 +12536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 1333948019}
-  uBorder: {fileID: 0}
+  uBorder: {fileID: 1573011178}
   lBorder: {fileID: 1559745035}
   rBorder: {fileID: 0}
 --- !u!4 &1750749851
@@ -12564,7 +12587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 1377659053}
   uBorder: {fileID: 2036368595}
-  lBorder: {fileID: 0}
+  lBorder: {fileID: 936592156}
   rBorder: {fileID: 176469451}
 --- !u!4 &1764350658
 Transform:
@@ -12654,7 +12677,7 @@ MonoBehaviour:
   left: 0
   right: 0
   timer: 0
-  searching: 1
+  searching: 0
 --- !u!1 &1785355664
 GameObject:
   m_ObjectHideFlags: 0
@@ -12818,7 +12841,7 @@ MonoBehaviour:
   left: 0
   right: 0
   timer: 0
-  searching: 1
+  searching: 0
 --- !u!1 &1795494628
 GameObject:
   m_ObjectHideFlags: 0
@@ -13213,7 +13236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0681881a14bd41f4a972928e4bc77333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
-  dBorder: {fileID: 0}
+  dBorder: {fileID: 594384022}
   uBorder: {fileID: 1012988794}
   lBorder: {fileID: 1892076841}
   rBorder: {fileID: 709310257}
@@ -13865,9 +13888,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0681881a14bd41f4a972928e4bc77333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
-  dBorder: {fileID: 0}
+  dBorder: {fileID: 2036368595}
   uBorder: {fileID: 1010796725}
-  lBorder: {fileID: 0}
+  lBorder: {fileID: 648658817}
   rBorder: {fileID: 1850459157}
 --- !u!4 &1892076843
 Transform:
@@ -14194,7 +14217,7 @@ MonoBehaviour:
   dBorder: {fileID: 2127352878}
   uBorder: {fileID: 1493761569}
   lBorder: {fileID: 649796112}
-  rBorder: {fileID: 0}
+  rBorder: {fileID: 793956028}
 --- !u!4 &1940802642
 Transform:
   m_ObjectHideFlags: 0
@@ -14655,11 +14678,11 @@ MonoBehaviour:
   tilesList: []
   TileToCheck: 0
   top: 0
-  bottom: 1
+  bottom: 0
   left: 0
   right: 0
   timer: 0
-  searching: 1
+  searching: 0
 --- !u!1 &1984268003
 GameObject:
   m_ObjectHideFlags: 0
@@ -15669,8 +15692,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 1764350656}
-  uBorder: {fileID: 0}
-  lBorder: {fileID: 0}
+  uBorder: {fileID: 1892076841}
+  lBorder: {fileID: 2048326451}
   rBorder: {fileID: 594384022}
 --- !u!1 &2043057501
 GameObject:
@@ -15757,9 +15780,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridGame
   dBorder: {fileID: 936592156}
-  uBorder: {fileID: 0}
+  uBorder: {fileID: 648658817}
   lBorder: {fileID: 1512433965}
-  rBorder: {fileID: 0}
+  rBorder: {fileID: 2036368595}
 --- !u!1 &2052572211
 GameObject:
   m_ObjectHideFlags: 0
@@ -16221,7 +16244,7 @@ MonoBehaviour:
   dBorder: {fileID: 648658817}
   uBorder: {fileID: 1940802640}
   lBorder: {fileID: 732442614}
-  rBorder: {fileID: 0}
+  rBorder: {fileID: 1010796725}
 --- !u!4 &2127352880
 Transform:
   m_ObjectHideFlags: 0
