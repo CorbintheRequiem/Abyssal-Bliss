@@ -7100,7 +7100,7 @@ MonoBehaviour:
   left: 0
   right: 0
   timer: 0
-  searching: 0
+  searching: 1
 --- !u!1 &987677131
 GameObject:
   m_ObjectHideFlags: 0
@@ -12654,7 +12654,7 @@ MonoBehaviour:
   left: 0
   right: 0
   timer: 0
-  searching: 0
+  searching: 1
 --- !u!1 &1785355664
 GameObject:
   m_ObjectHideFlags: 0
@@ -12818,7 +12818,7 @@ MonoBehaviour:
   left: 0
   right: 0
   timer: 0
-  searching: 0
+  searching: 1
 --- !u!1 &1795494628
 GameObject:
   m_ObjectHideFlags: 0
@@ -14659,7 +14659,7 @@ MonoBehaviour:
   left: 0
   right: 0
   timer: 0
-  searching: 0
+  searching: 1
 --- !u!1 &1984268003
 GameObject:
   m_ObjectHideFlags: 0
