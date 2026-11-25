@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class StatsHUD : MonoBehaviour
 {
-    public Stats Stats;
+    public PlayerStats Stats;
 
     public Image healthbar;
     public Image oxybar;
@@ -12,6 +12,6 @@ public class StatsHUD : MonoBehaviour
     void Update()
     {
         healthbar.fillAmount = Stats.currentHealth / Stats.maxHealth;
-        oxybar.fillAmount = Stats.currentHealth / Stats.maxHealth;
+        oxybar.fillAmount = Stats.currentOxy / Stats.maxOxy;
     }
 }

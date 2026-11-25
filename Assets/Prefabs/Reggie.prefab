@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8874034161562603562}
   - component: {fileID: 3111441405484803610}
   - component: {fileID: 7858697457226621368}
+  - component: {fileID: 2596429957160888335}
   m_Layer: 0
   m_Name: Reggie
   m_TagString: Untagged
@@ -318,3 +319,23 @@ MonoBehaviour:
   speed: 8
   accelerationTime: 0.5
   rotationSpeed: 270
+--- !u!114 &2596429957160888335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4069308890017198641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fbb8c40a56885249be0b9544642b79c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  maxHealth: 100
+  currentHealth: 0
+  maxOxy: 50
+  currentOxy: 0
+  damage: 3
+  defence: 1
+  currency: -1
+  isDead: 0
