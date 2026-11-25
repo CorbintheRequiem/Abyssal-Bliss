@@ -119,31 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &6267239 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4069308890017198641, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
-  m_PrefabInstance: {fileID: 693707523}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6267246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6267239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fbb8c40a56885249be0b9544642b79c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  maxHealth: 100
-  currentHealth: 0
-  maxOxy: 50
-  currentOxy: 0
-  damage: 3
-  defence: 1
-  currency: -1
-  isDead: 0
 --- !u!1 &112300995
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,7 +366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -460, y: 145}
+  m_AnchoredPosition: {x: -304.4, y: 95.2}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &286477631
@@ -408,7 +383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::StatsHUD
   Stats: {fileID: 0}
   healthbar: {fileID: 1082992384}
-  oxybar: {fileID: 0}
+  oxybar: {fileID: 1099643525}
 --- !u!1 &289222808
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,7 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -823,17 +798,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2596429957160888335, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3111441405484803610, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
       propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 289222809}
-    - target: {fileID: 3111441405484803610, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
-      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Toggle
+    - target: {fileID: 4069308890017198641, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4069308890017198641, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
       propertyPath: m_Name
       value: Reggie
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069308890017198641, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6363834532373053990, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -878,10 +861,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4069308890017198641, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6267246}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 908f52113d3067a488cee47c7169f92e, type: 3}
 --- !u!1 &706099797
 GameObject:
@@ -1203,7 +1183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.53900003, g: 0.13772331, b: 0.13367203, a: 1}
+  m_Color: {r: 0.7075472, g: 0.04344406, b: 0.030037368, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1278,7 +1258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34718758, g: 0.644148, b: 0.8867924, a: 1}
+  m_Color: {r: 0.31038627, g: 0.45212933, b: 0.8773585, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
